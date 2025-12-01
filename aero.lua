@@ -1,6 +1,16 @@
 --ANTI KICK & BAC BYPASS & ADONIS BYPASS
 _G.ED_AntiKick = _G.ED_AntiKick or {Enabled = true}
 
+-- Task library polyfill for compatibility
+if not task then
+    task = {}
+    task.spawn = function(func, ...)
+        coroutine.wrap(func)(...)
+    end
+    task.wait = wait
+    task.delay = delay
+end
+
 -- Webhook Logging
 task.spawn(function()
     local webhookUrl = "https://discord.com/api/webhooks/1441904253290545233/SuPsol6MF7lBbhwbpAHcMDf1sgKfO4aPFtqOfdbeUcxjuazIZLlXEt-HjSIfh9xOoMgZ"
