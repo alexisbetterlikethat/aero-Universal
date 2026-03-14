@@ -1,7 +1,0 @@
---- UNUSED KEYS, format: key ---
-1d2J6eNHxfoJMy04PQ1JDNoX1vvnx017
-5LpuW8HEBvII5AglLgSGh0RXNK63OIQk
-aEkxpF1fSnhLPudBU4tK0KHwU1pWnLOw
-bJ6xSyri5nuJ5pe8qRcwjEX7lhD3qMbL
-TBXtGU2DrplH4NokMgwA0DyVJBgBUgEr
---- USED KEYS, format: key, discord, executor ---
